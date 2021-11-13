@@ -2,7 +2,7 @@
 * ADC.c
 *
 * Created: 8/21/2021 9:17:59 PM
-*  Author: karim
+*  Author: Osama Kamal
 */
 #include "ADC.h"
 
@@ -52,7 +52,7 @@ void ADC_Initialize(void)
 
 	//ADC Auto trigger enable:
 	/*
-	Bit 7:5 – ADTS2:0: ADC Auto Trigger Source
+	Bit 7:5 â€“ ADTS2:0: ADC Auto Trigger Source
 	If ADATE in ADCSRA is written to one, the value of these bits selects which source will
 	trigger an ADC conversion. If ADATE is cleared, the ADTS2:0 settings will have no
 	effect. A conversion will be triggered by the rising edge of the selected Interrupt Flag.
@@ -65,7 +65,7 @@ void ADC_Initialize(void)
 	//Prescaler
 	SET_BIT(ADCSRA, ADPS2);SET_BIT(ADCSRA, ADPS1);SET_BIT(ADCSRA, ADPS0); //0b111
 	//ADC enable
-	//ADEN – Set this to 1 to enable ADC:
+	//ADEN â€“ Set this to 1 to enable ADC:
 	SET_BIT(ADCSRA, ADEN);
 }
 
@@ -112,8 +112,8 @@ uint16_t ADC_Read(uint8_t ADC_Channel)
 	}
 	uint16_t var = 0;//Create variable to read value 
 	/*
-	ADSC – We need to set this to one whenever we need adc to do a conversion.
-	ADIF – This is the interrupt bit this is set to 1 by the hardware when conversion is complete.
+	ADSC â€“ We need to set this to one whenever we need adc to do a conversion.
+	ADIF â€“ This is the interrupt bit this is set to 1 by the hardware when conversion is complete.
 	So we can wait till conversion is complete by polling this bit like:
 	//Wait for conversion to complete
 	while(!(ADCSRA & (1<<ADIF)));
