@@ -2,7 +2,7 @@
  * ADC_Configuration.h
  *
  * Created: 8/21/2021 9:17:37 PM
- *  Author: karim
+ *  Author: Osama Kamal
  */ 
 
 /*
