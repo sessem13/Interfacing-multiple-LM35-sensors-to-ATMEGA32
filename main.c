@@ -2,7 +2,7 @@
  * Multiple_Analog_Inputs.c
  *
  * Created: 11/2/2021 7:56:30 PM
- * Author : 20100
+ * Author : Osama Kamal
  */ 
 
 #include <avr/io.h>
