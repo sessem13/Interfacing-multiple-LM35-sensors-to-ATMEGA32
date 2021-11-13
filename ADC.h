@@ -13,7 +13,7 @@
 
 void ADC_Initialize(void);
 
-uint16_t ADC_Read(uint8_t ACD_Channel);
+uint16_t ADC_Read(uint8_t ADC_Channel);
 
 
 #endif /* ADC_H_ */
