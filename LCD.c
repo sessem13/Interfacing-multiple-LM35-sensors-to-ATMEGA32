@@ -2,7 +2,7 @@
  * LCD.c
  *
  * Created: 8/14/2021 7:10:05 PM
- *  Author: 20100
+ *  Author: Osama Kamal
  */ 
 #include "LCD.h"
 //#include "LCD_Configuration.h"
