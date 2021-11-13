@@ -2,7 +2,7 @@
  * LCD_Configuration.h
  *
  * Created: 8/14/2021 7:09:34 PM
- *  Author: 20100
+ *  Author: Osama Kamal
  */ 
 //what should I do here:
 // - Macros needed
