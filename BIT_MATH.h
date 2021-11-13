@@ -2,7 +2,7 @@
  * BIT_MATH.h
  *
  * Created: 8/7/2021 10:26:00 PM
- *  Author: karim
+ *  Author: Osama Kamal
  */ 
 
 
