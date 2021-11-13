@@ -2,7 +2,7 @@
  * CPU_Configuration.h
  *
  * Created: 8/7/2021 10:22:26 PM
- *  Author: 20100
+ *  Author: Osama Kamal
  */ 
 
 
