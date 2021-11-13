@@ -2,7 +2,7 @@
  * LCD.h
  *
  * Created: 8/14/2021 7:09:50 PM
- *  Author: 20100
+ *  Author: Osama Kamal
  */ 
 
 
